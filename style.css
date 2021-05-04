@@ -1,0 +1,199 @@
+body{font-family: poppins;
+     width:100%; height:100%; margin:0; padding:0; }
+
+
+#logo{
+    margin-left: 30px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+
+nav {display: inline-block;
+     margin-left: 45%;
+} 
+
+a{color: #707070;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+a:hover{color: black;}
+
+.header{width: 95%;
+       margin: auto;
+       margin-top: 40px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       border-radius: 50px;}
+
+.download{border-radius: 50px;
+          color: white;
+          background-color:#356F73;
+          font-family: poppins;
+          border: none;
+          width: 150px;
+          padding:5px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homematebanner{margin-left: auto;
+                margin-right: auto;}
+
+.welkom{display: grid;
+        margin: 20px;
+        grid-template-columns: 1fr 1fr;
+        background-image: url("achtergrond.png");
+        background-repeat: no-repeat;
+        background-size: 700px 700px;
+        background-position: -20% 0%;
+        }        
+    
+.stores{display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        grid-template-rows: 50px 50px 30px;
+        grid-gap: 20px;}
+
+.waarom{background-color: #356F73;
+        padding: 50px;}
+
+.waarom p{color: white;
+          text-align: center;}
+
+h2{color: white;
+   font-weight: normal;
+   text-align: center;
+  }
+
+
+
+.redenen{display: grid;
+    margin: 20px;
+         grid-template-columns: 1fr 1fr 1fr;}
+
+.aanbevolen{padding: 50px;
+            text-align: center;}
+
+
+
+.aanbevolen div{display: inline-block;
+                 width: 10px;
+                 height: 10px;
+                 margin: 5px;
+                 background-color: grey;
+                border-radius: 20px;}
+
+
+.meisje{  display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+.werking{background-color: #E67A6D;
+        padding: 50px;}
+
+.werking p{color: white;
+    text-align: center;}
+
+.onderdelen{display: grid;
+           grid-template-columns: 1fr 1fr 1fr;}
+
+
+.calltoaction{background-color: #EBD5C0;
+              margin: 20px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;}
+
+footer{text-align: center;}
+
+.boleen{display: block;
+        margin: 0 auto;}
+
+.boltwee{display: block;
+         margin: 0 auto;}
+
+.boldrie{display: block;
+    margin: 0 auto;}
+
+
+.picto1{display: block;
+        margin: 0 auto;}
+
+.picto2{display: block;
+         margin: 0 auto;}
+
+.picto3{display: block;
+    margin: 0 auto;}
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
+        margin: 20px 0;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
+        margin: 20px 0;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+
+      input[id=boodschap] {
+       height: 200px
+      }
+
+      input[type=submit] {
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: #356F73 ;
+        margin: 20px 0;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      form h4{text-align: center;
+        color: #356F73 ;}
+
+    .calltoaction div{margin-top: auto ;
+                      margin-bottom: auto;}
+
+                      .info{color: #707070;}
+    
+                      
+
+@media only screen and (max-width: 735px) {
+ 
+  nav{display: none;}
+
+  #logo{margin-left: 45%;
+        margin-right: 50%;
+        width: 75px;
+        height: 75px;
+        vertical-align: middle;}
+
+  .welkom{grid-template-columns: 1fr;}
+
+  .redenen{grid-template-columns: 1fr;}
+
+  .onderdelen{grid-template-columns: 1fr;}
+
+  .calltoaction{grid-template-columns: 1fr;}
+ 
+}
