@@ -57,7 +57,7 @@ a:hover {
 .welkom {
   display: grid;
   margin: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   background-image: url("achtergrond.png");
   background-repeat: no-repeat;
   background-size: 700px 700px;
@@ -72,6 +72,12 @@ a:hover {
   margin-bottom: auto;
   grid-template-rows: 50px 50px 30px;
   grid-gap: 20px;
+}
+
+.simulatie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .waarom {
@@ -284,7 +290,7 @@ form h4 {
   background: #356f73;
 }
 
-.google {
+.instagram {
   background: #356f73;
 }
 
